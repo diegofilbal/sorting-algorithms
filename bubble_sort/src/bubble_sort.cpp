@@ -3,7 +3,7 @@
 void bubble (vector <int> *list){
     
     // Evaluates the length of the list
-    size_t tam = list->end() - list->begin();
+    size_t tam = list->size();
 
     // Runs across the array 
     for (size_t i = 0; i < tam-1; i++){
