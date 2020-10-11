@@ -1,4 +1,4 @@
-#include "../include/selection_sort.h"
+#include "../include/selection_sort.hpp"
 
 void selection(vector <int> *list){
 

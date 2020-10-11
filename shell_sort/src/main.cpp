@@ -1,4 +1,4 @@
-#include "../include/shell_sort.h"
+#include "../include/shell_sort.hpp"
 
 int main (){
 
@@ -9,7 +9,7 @@ int main (){
 
     //  Prints the unsorted list
     for (size_t i = 0; i < tam; i++){
-        cout << " " << list.at(i);
+        cout << list.at(i) << " ";
     }
     cout << endl;
 
@@ -17,7 +17,7 @@ int main (){
 
     //  Prints the sorted list
     for (size_t i = 0; i < tam; i++){
-        cout << " " << list.at(i);
+        cout << list.at(i) << " ";
     }
     cout << endl;
 

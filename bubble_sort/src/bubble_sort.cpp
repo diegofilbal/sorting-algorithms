@@ -1,4 +1,4 @@
-#include "../include/bubble_sort.h"
+#include "../include/bubble_sort.hpp"
 
 void bubble (vector <int> *list){
     

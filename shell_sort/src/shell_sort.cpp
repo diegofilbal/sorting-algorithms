@@ -1,5 +1,5 @@
-#include "../include/shell_sort.h"
-#include "../../insertion_sort/include/insertion_sort.h"
+#include "../include/shell_sort.hpp"
+#include "../../insertion_sort/include/insertion_sort.hpp"
 
 void shell(vector <int> &list){
 
