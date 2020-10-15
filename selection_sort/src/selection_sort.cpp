@@ -12,7 +12,7 @@ void selection(vector <int> &list){
         int min_value = list.at(i);
 
         // Holds the smallest element's index
-        size_t min_index;
+        size_t min_index = 0;
 
         // Searches for the smallest element in the list
         for (size_t j = i+1; j < tam; j++){

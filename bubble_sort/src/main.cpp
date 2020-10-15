@@ -13,7 +13,7 @@ int main (){
     }
     cout << endl;
 
-    bubble(&list);
+    bubble(list);
 
     // Prints the sorted list
     for (size_t i = 0; i < tam; i++){

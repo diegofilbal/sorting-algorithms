@@ -3,4 +3,4 @@
 
 using namespace std;
 
-void bubble(vector <int> *list);
+void bubble(vector <int> &list);
